@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "myhack",
+  "version": "1.0.0",
+  "name": "My Hack",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.myclient.ClientInitializer"]
+  },
+  "mixins": ["myhack.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
